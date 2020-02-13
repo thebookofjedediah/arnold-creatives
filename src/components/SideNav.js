@@ -8,6 +8,7 @@ import ListItemText from "@material-ui/core/ListItemText";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import Typography from "@material-ui/core/Typography";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles({
   list: {
@@ -15,6 +16,10 @@ const useStyles = makeStyles({
   },
   logo: {
     textAlign: "center"
+  },
+  navlink: {
+    textDecoration: "none",
+    color: "rgba(0, 0, 0, 1)"
   }
 });
 
@@ -49,18 +54,26 @@ export default function SideNav() {
           </ListItemText>
         </ListItem>
         <Divider />
-        <ListItem button>
-          <ListItemText>Home</ListItemText>
-        </ListItem>
-        <ListItem button>
-          <ListItemText>About</ListItemText>
-        </ListItem>
-        <ListItem button>
-          <ListItemText>Work Samples</ListItemText>
-        </ListItem>
-        <ListItem button>
-          <ListItemText>Order/Contact</ListItemText>
-        </ListItem>
+        <Link className={classes.navlink} to="/">
+          <ListItem button>
+            <ListItemText>Home</ListItemText>
+          </ListItem>
+        </Link>
+        <Link className={classes.navlink} to="/about">
+          <ListItem button>
+            <ListItemText>About</ListItemText>
+          </ListItem>
+        </Link>
+        <Link className={classes.navlink} to="/works">
+          <ListItem button>
+            <ListItemText>Work Samples</ListItemText>
+          </ListItem>
+        </Link>
+        <Link className={classes.navlink} to="/contact">
+          <ListItem button>
+            <ListItemText>Order/Contact</ListItemText>
+          </ListItem>
+        </Link>
       </List>
     </div>
   );
