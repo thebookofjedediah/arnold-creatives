@@ -23,7 +23,7 @@ export default function AppHeader() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar>
         <Toolbar>
           <SideNav />
           <Typography variant="h6" className={classes.title}>

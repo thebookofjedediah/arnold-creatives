@@ -1,13 +1,10 @@
 import React from "react";
+import Hero from "./Hero";
 
-class LandingPage extends React.Component {
-  render() {
-    return (
-      <div>
-        <h1>LandingPage</h1>
-      </div>
-    );
-  }
+export default function LandingPage() {
+  return (
+    <div>
+      <Hero />
+    </div>
+  );
 }
-
-export default LandingPage;
