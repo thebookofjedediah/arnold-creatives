@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "./Hero";
 import SocialProof from "./SocialProof";
-import CallToAction from "./CallToAction";
+import CallToActionOne from "./CallToActionOne";
 import Features from "./Features";
 
 export default function LandingPage() {
@@ -9,7 +9,7 @@ export default function LandingPage() {
     <div>
       <Hero />
       <SocialProof />
-      <CallToAction />
+      <CallToActionOne />
       <Features />
     </div>
   );

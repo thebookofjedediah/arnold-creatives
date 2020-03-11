@@ -19,7 +19,7 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-export default function CallToAction() {
+export default function CallToActionOne() {
   const classes = useStyles();
 
   return (

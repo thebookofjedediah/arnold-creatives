@@ -7,10 +7,9 @@ import Paper from "@material-ui/core/Paper";
 const useStyles = makeStyles(theme => ({
   root: {
     textAlign: "center",
-    marginTop: "5em"
+    marginTop: "3em"
   },
   paper: {
-    minHeight: "80vh",
     margin: theme.spacing(3)
   },
   heading: {
@@ -23,7 +22,7 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-export default function About() {
+export default function AboutInfo() {
   const classes = useStyles();
   return (
     <div className={classes.root}>
