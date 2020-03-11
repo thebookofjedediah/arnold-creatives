@@ -7,7 +7,8 @@ import Typography from "@material-ui/core/Typography";
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
-    margin: "30px"
+    margin: "30px",
+    textAlign: "center"
   },
   paper: {
     padding: theme.spacing(2),
@@ -15,6 +16,9 @@ const useStyles = makeStyles(theme => ({
   },
   name: {
     paddingBottom: "5px"
+  },
+  socialProofText: {
+    paddingBottom: "20px"
   }
 }));
 
@@ -23,9 +27,12 @@ export default function SocialProof() {
 
   return (
     <div className={classes.root}>
+      <Typography variant="h4" className={classes.socialProofText}>
+        What Our Customers Are Saying
+      </Typography>
       <Grid container spacing={3}>
         <Grid item xs={12} sm={6} md={3}>
-          <Paper className={classes.paper}>
+          <Paper elevation={3} className={classes.paper}>
             <Typography variant="h5" className={classes.name}>
               Moe Lester
             </Typography>
@@ -35,7 +42,7 @@ export default function SocialProof() {
           </Paper>
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
-          <Paper className={classes.paper}>
+          <Paper elevation={3} className={classes.paper}>
             <Typography variant="h5" className={classes.name}>
               Dixie Normus
             </Typography>
@@ -45,7 +52,7 @@ export default function SocialProof() {
           </Paper>
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
-          <Paper className={classes.paper}>
+          <Paper elevation={3} className={classes.paper}>
             <Typography variant="h5" className={classes.name}>
               Ben Dover
             </Typography>
@@ -55,7 +62,7 @@ export default function SocialProof() {
           </Paper>
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
-          <Paper className={classes.paper}>
+          <Paper elevation={3} className={classes.paper}>
             <Typography variant="h5" className={classes.name}>
               Hugh G. Rection
             </Typography>

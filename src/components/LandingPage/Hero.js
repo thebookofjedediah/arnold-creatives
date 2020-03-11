@@ -14,7 +14,7 @@ const useStyles = makeStyles(theme => ({
     marginBottom: "2em;"
   },
   hero: {
-    background: "#F0F2F0" /* fallback for old browsers */
+    backgroundColor: "#F0F2F0"
   },
   heroText: {
     width: "80%",
@@ -63,7 +63,7 @@ export default function Hero() {
             />
           </div>
           <div className={classes.heroText}>
-            <Typography variant="h4">Welcome to Arnold Creatives</Typography>
+            <Typography variant="h3">Welcome to Arnold Creatives</Typography>
             <hr style={{ width: "90%" }} />
             <Typography variant="body1">Content Writing Done Right</Typography>
           </div>
