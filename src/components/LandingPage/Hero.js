@@ -2,6 +2,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core";
 import Grid from "@material-ui/core/Grid";
 import Avatar from "avataaars";
+import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -9,11 +10,20 @@ const useStyles = makeStyles(theme => ({
     textAlign: "center"
   },
   avatars: {
-    marginTop: "10em"
+    marginTop: "8em",
+    marginBottom: "2em;"
   },
   hero: {
-    background: "#F0F2F0" /* fallback for old browsers */,
-    height: "100vh"
+    background: "#F0F2F0" /* fallback for old browsers */
+  },
+  heroText: {
+    width: "80%",
+    display: "inline-block",
+    marginTop: "20px",
+    marginBottom: "20px",
+    backgroundColor: theme.palette.primary.light,
+    borderRadius: "10px",
+    color: theme.palette.text.secondary
   }
 }));
 
@@ -53,7 +63,9 @@ export default function Hero() {
             />
           </div>
           <div className={classes.heroText}>
-            <h2>Content Writing Done Right</h2>
+            <Typography variant="h4">Welcome to Arnold Creatives</Typography>
+            <hr style={{ width: "90%" }} />
+            <Typography variant="body1">Content Writing Done Right</Typography>
           </div>
         </Grid>
       </Grid>
