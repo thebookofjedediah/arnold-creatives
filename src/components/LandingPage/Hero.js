@@ -33,7 +33,7 @@ export default function Hero() {
           <div className={classes.heroText}>
             <Typography variant="h3">Welcome to Arnold Creatives</Typography>
             <hr style={{ width: "90%" }} />
-            <Typography variant="body1">Content Writing Done Right</Typography>
+            <Typography variant="body1">A Complete Web Agency</Typography>
           </div>
         </Grid>
       </Grid>

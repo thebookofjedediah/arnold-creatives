@@ -34,7 +34,7 @@ export default function SocialProof() {
         <Grid item xs={12} sm={6} md={3}>
           <Paper elevation={3} className={classes.paper}>
             <Typography variant="h5" className={classes.name}>
-              Moe Lester
+              Random Name
             </Typography>
             <Typography variant="subtitle1">
               They got me from 0 to 100 real quick.
@@ -44,7 +44,7 @@ export default function SocialProof() {
         <Grid item xs={12} sm={6} md={3}>
           <Paper elevation={3} className={classes.paper}>
             <Typography variant="h5" className={classes.name}>
-              Dixie Normus
+              Random Name
             </Typography>
             <Typography variant="subtitle1">
               The Arnold's are the greatest ever.
@@ -54,7 +54,7 @@ export default function SocialProof() {
         <Grid item xs={12} sm={6} md={3}>
           <Paper elevation={3} className={classes.paper}>
             <Typography variant="h5" className={classes.name}>
-              Ben Dover
+              Random Name
             </Typography>
             <Typography variant="subtitle1">
               Here is a slightly longer testimonial to show how that will work.
@@ -64,7 +64,7 @@ export default function SocialProof() {
         <Grid item xs={12} sm={6} md={3}>
           <Paper elevation={3} className={classes.paper}>
             <Typography variant="h5" className={classes.name}>
-              Hugh G. Rection
+              Random Name
             </Typography>
             <Typography variant="subtitle1">
               Every article was delivered perfectly and on time. No edits were
